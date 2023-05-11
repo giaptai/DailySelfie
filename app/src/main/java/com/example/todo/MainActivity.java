@@ -37,12 +37,15 @@ public class MainActivity extends AppCompatActivity {
         arrayAdapter = new ImageAdapter(getApplicationContext(), bitmapList);// this, MainActivity.this
         listView.setAdapter(arrayAdapter);
     }
-
+//ok anh yeu crush em T
     //xóa 1 item trong listView
 //    public static void RemoveItemAt(int pos) {
 //        bitmapList.remove(pos);
 //        arrayAdapter.notifyDataSetChanged();
 //    }
+    public void CrushEmT(){
+            System.out.println("ssss");
+    }
 
     // ham goi icon camera de bat chuc nang camera
     @Override
